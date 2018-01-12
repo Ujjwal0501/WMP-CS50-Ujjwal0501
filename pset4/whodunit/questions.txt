@@ -1,0 +1,15 @@
+1.  "stdint.h" is a header file which is used to declare and utilize properties of fixed width integer datatypes.
+2.  Using these types, we can explicitly specify a limit on the max and min values of identifiers of these type, unlike system dependent limit of int datatype.
+3.  BYTE = 1 byte
+    DWORD = 4 bytes
+    LONG = 4 bytes
+    WORD = 2 bytes
+4.  In hexadecimal these are: 0x42 and 0x4D.
+5.  'biSize' gives bytes of image with padding, while 'bfSize' stores size of full file including padding, infoheader and file header size.
+6.  Negative biHeight indicates that the BMP file starts from top-left corner and the image is top-down.
+7.  'biBitCount' specifies the color depth.
+8.  It may happen that the file was not open (as it was not on disk or have been removed), in such a case the return value of 'fopen' function will be 'NULL' indicating the same.
+9.  This part is to specify the number of reads are to made from the file specified. In our case, we always read one pixel at a time and so, we always copied only one time.
+10. 3
+11. 'fseek' function is used to skip over the bytes in file. It moves the read/write pointer while a file is being read/written.
+12. A function such as 'fseek' sometiems perform seek relative to current position of cursor. The 'SEEK_CUR' is used to specify the current cursor position implicitly.

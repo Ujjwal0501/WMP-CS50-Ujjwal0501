@@ -1,0 +1,4 @@
+0. The framework allows dimensions of 'd x d', where d ranges from 3 to 9 both inclusive.
+1. The Game's board has been represented using a 2D-integer-array.
+2. Calling the 'greet' function greets the player at the start of game.
+3. The 'init', 'draw', 'move', 'won' were needed to be implemented.

@@ -1,0 +1,53 @@
+#!/usr/bin/env python3
+from analyzer import Analyzer
+from termcolor import colored
+from nltk.tokenize import TweetTokenizer
+
+import helpers
+import os
+import sys
+
+def main() :
+    if len(sys.argv) != 2 :
+        sys.exit("USAGE: ./tweets screen_name")
+
+    # absolute path to list
+    positives = "positive-words.txt"
+    negatives = "negative-words.txt"
+
+    # load database
+    analyzer = Analyzer(positives, negatives)
+
+    # this initialisation to silent UnboundLocalError
+    tweets = ""
+    # get 100 user tweets
+    try :
+        tweets = helpers.get_user_timeline(sys.argv[1], 100)
+    except RuntimeError as err :
+        print(err)
+
+    # instatiate tokenizer
+    tokenizer = TweetTokenizer()
+
+    try :
+        for tweet in tweets :
+            # reset score for each tweet
+            score = 0
+
+            # calculate score of each word
+            for word in tokenizer.tokenize(tweet) :
+                score = score + analyzer.analyze(word)
+
+            # print a/c to score
+            if score < 0 :
+                print(colored("{} {}".format(score, tweet), "red"))
+            elif score > 0 :
+                print(colored("{} {}".format(score, tweet), "green"))
+            else :
+                print(colored("{} {}".format(score, tweet), "yellow"))
+
+    except TypeError :
+        sys.stderr.write("WRONG screen_name\n")
+
+if __name__ == "__main__" :
+    main()

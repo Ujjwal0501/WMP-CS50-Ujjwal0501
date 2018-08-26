@@ -14,8 +14,11 @@ Total number of problem sets: 8
 
   ![Scratch online editor](scratch.png)
 
-  3. Upload the file you just downoaded. Using the 'Upload file from computer' option. Click ok on the prompt.
+  3. Upload the file you just downoaded using the 'Upload from computer' option. Click ok on the prompt.
 
-  After uploading the file is uploaded, it should appear similar as in the image below.
+  After uploading the file, the webpage should appear similar as in the image below.
+  
   ![Project file uploaded](loaded.png)
 
+  4. Use the icon on top left corner of the webpage to go fullscreen. Click on the green flag to start the program.
+  

@@ -24,4 +24,32 @@ Total number of problem sets: 9
   
 ## Problem set 1
   ### Description
-  Programs in this problem set: 
+  Programs in this problem set: credit, greedy, mario, water, hello
+
+## Problem set 2
+  ### Description
+  Programs in this problem set: caesar, crack, initials, vigenere
+
+## Problem set 3
+  ### Description
+  Programs in this problem set: find, game of fifteen
+
+## Problem set 4
+  ### Description
+  Programs in this problem set: recover, resize, whodunit
+
+## Problem set 5
+  ### Description
+  Programs in this problem set: speller
+
+## Problem set 6
+  ### Description
+  Programs in this problem set: sentiments, caesar, greedy, mario
+
+## Problem set 7
+  ### Description
+  Programs in this problem set: finance website
+
+## Problem set 8
+  ### Description
+  Programs in this problem set: mashup

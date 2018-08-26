@@ -1,14 +1,14 @@
 # WMP-CS50-Ujjwal0501
 WMP-CS50-2017 problem set solutions
 
-Total number of problem sets: 8
+Total number of problem sets: 9
 
 ## Problem set 0
-  ### Description
+  #### Description
   A project on '[Scratch](https://scratch.mit.edu/about)' programming language.
   This is a project of 'Luck meter' game. In this user has to play the game and at the end it will tell if you are having a 'bad luck', 'quite good luck' or 'very good luck' based on the points scored by the player.  The criteria for the same has been preset in the script.
 
-  ### How to run?
+  #### How to run?
   1. Download the file named '[project.sb2](pset0/project.sb2)'.
   2. Goto [scratch website editor](https://scratch.mit.edu/projects/editor/?tip_bar=home).
 
@@ -22,3 +22,6 @@ Total number of problem sets: 8
 
   4. Use the icon in top left corner of the editor to go fullscreen. Click on the green flag to start the program.
   
+## Problem set 1
+  ### Description
+  Programs in this problem set: 

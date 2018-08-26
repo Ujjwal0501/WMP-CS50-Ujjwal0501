@@ -20,5 +20,5 @@ Total number of problem sets: 8
   
   ![Project file uploaded](loaded.png)
 
-  4. Use the icon on top left corner of the webpage to go fullscreen. Click on the green flag to start the program.
+  4. Use the icon in top left corner of the editor to go fullscreen. Click on the green flag to start the program.
   

@@ -6,7 +6,7 @@ Total number of problem sets: 8
 ## Problem set 0
   ### Description
   A project on '[Scratch](https://scratch.mit.edu/about)' programming language.
-  This is a project on 'Luck meter' game. In this user has to play the game and at the end it will tell if you are having a 'bad luck', 'quite good luck' or 'very good luck' based on the points scored by the player.  The criteria for the same has been preset in the script.
+  This is a project of 'Luck meter' game. In this user has to play the game and at the end it will tell if you are having a 'bad luck', 'quite good luck' or 'very good luck' based on the points scored by the player.  The criteria for the same has been preset in the script.
 
   ### How to run?
   1. Download the file named '[project.sb2](pset0/project.sb2)'.
